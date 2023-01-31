@@ -44,7 +44,7 @@ section > .container {
   width: auto;
   height: 68vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(67, 2, 2, 0.201)),
-    url("css/images/banner.jpg");
+    url("images/banner.jpg");
   background-size: cover;
   position: relative;
 }
