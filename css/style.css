@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+section > .container {
+  max-width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 0px 50px;
+  margin-bottom: 30px;
+}
+
+.info-icon a {
+  color: #00aeff;
+}
+/* #nav-bar {
+  text-align: center;
+} */
+
+/*  Xây dựng phần ảnh Banner */
+.container-navbar a:hover {
+  background-color: #d9d9d9;
+}
+.text-banner {
+  position: absolute;
+  /* left: 33%; */
+  right: 50%;
+  top: 6%;
+  transform: translate(50%, 50%);
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  line-height: 1.6;
+}
+#banner {
+  /* background-color: olivedrab; */
+  width: auto;
+  height: 68vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(67, 2, 2, 0.201)),
+    url("/images/banner.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* Xây dựng Navbar */
+#nav-bar .container-navbar i {
+  color: #199cdb;
+}
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid #9e717127;
+}
+.container-navbar a {
+  text-transform: uppercase;
+  border-left: 0.1px solid #9e717127;
+  border-right: 0.1px solid #9e717127;
+  text-align: center;
+  align-self: stretch;
+  border-collapse: collapse;
+  text-decoration: none;
+  flex-basis: 120px;
+  /* color: #8e8e8e; */
+}
+#navbar-avatar {
+  flex-basis: 200px;
+}
+.nav {
+  font-size: 14px;
+  padding-top: 24px;
+  /* font-weight: 600; */
+  color: #6d6d6d;
+}
+
+/* Xây dựng Thông tin cá nhân */
+#about .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#target {
+  background-color: rgb(240 240 240);
+  /* text-align: center; */
+  padding: 43px 10px;
+  line-height: 1.6;
+}
+#personal-info {
+  background-color: rgb(207 207 207);
+
+  padding: 43px 10px;
+  line-height: 1.6;
+}
+.info {
+  list-style-type: none;
+}
+*/ .info-icon {
+  padding-left: 38px;
+  padding-top: 18px;
+}
+
+.info {
+  color: rgb(41, 39, 39);
+
+  padding-top: 13px;
+  text-align: left;
+  font-size: 16px;
+  flex-basis: 20px;
+}
+
+/* Xây dựng phần Thông tin nghề nghiệp */
+.container-job {
+  columns: 3;
+}
+.job:first-child {
+  margin-top: 0;
+}
+.job {
+  display: grid;
+  line-height: 1.6;
+  margin-top: 20px;
+  grid-template-columns: 3fr 1fr;
+  /* grid-rows: 1/2; */
+  align-items: center;
+  break-inside: avoid;
+  /* grid-auto-rows: minmax(100px, auto); */
+  border: 0.1px solid #9e717127;
+  box-shadow: 1px 1px 5px 0px #6d6d6d;
+  border-radius: 10px;
+}
+.container-job h1 {
+  padding: 20px;
+}
+.language li {
+  list-style: none;
+}
+
+.language li:before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -16px;
+  top: -8px;
+  color: rgb(86, 119, 229);
+  font-size: 27px;
+}
+.size-icon {
+  font-size: 38px;
+}
+date {
+  background-color: #5f5fff;
+  color: white;
+  padding: 0px 14px;
+  /* display: inline-block; */
+  border-radius: 5px;
+  /* font-style: italic; */
+}
+.italic {
+  font-style: italic;
+}
+.content {
+  grid-column: 1/3;
+  display: inline-block;
+  padding-bottom: 40px;
+  text-align: left;
+}
+.content i {
+  /* font-size: 16px; */
+  /* stroke: #2f99f0; */
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+  border: 1px solid #2f99f0;
+  padding-top: 14px;
+  padding-left: 14px;
+  border-radius: 26px;
+  margin: 12px;
+  color: rgb(84, 120, 236);
+}
+.ic-style {
+  /* padding-left: 8px; */
+  text-align: center;
+  font-size: 14px;
+}
+.container-style {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* grid-template-rows: 60px 60px; */
+}
+.language {
+  list-style-type: none;
+}
+.lever {
+  padding-left: 20px;
+  /* padding-bottom: 70px; */
+  line-height: 1.6;
+}
+.lever span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* CHỨNG CHỈ GIẢI THƯỞNG */
+.container-award {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  position: relative;
+}
+.verticle-line {
+  position: absolute;
+  top: 0;
+  bottom: 50%;
+  width: 1px;
+  background-color: orange;
+  left: 50%;
+  margin-bottom: 40px;
+}
+.section-title {
+  padding-bottom: 15px;
+}
+.section-personal {
+  margin-left: 7%;
+}
+.float-img {
+  float: left;
+  width: 28%;
+}
+.text-award {
+  padding-left: 30%;
+  line-height: 1.5;
+}
+.award div {
+  /* text-align: center;0 */
+}
+.line {
+  height: 1px;
+  background-color: orange;
+  grid-column: 1/-1;
+}
+.non-line {
+  display: none;
+}
+
+/* DỰ ÁN */
+.box-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.img-project {
+  width: 361px;
+  height: 248px;
+  /* min-height: 60px; */
+}
+.year {
+  background-color: #00aeff;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 23px;
+  text-align: center;
+  color: white;
+}
+.name-project {
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+}
+.timeline {
+  display: flex;
+  text-align: center;
+  /* text-align: center; */
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  font-size: 0.8rem;
+}
+.project-img {
+  border-top: 1px solid #d0d0d0;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.project-description table {
+  /* border: 1px solid grey; */
+  line-height: 1.6;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  /* text-align: center; */
+}
+.project-description td:first-child {
+  width: 30%;
+  padding: 12px;
+}
+.project-description td:nth-child(2) {
+  padding: 10px;
+}
+.project-description td {
+  border: 1px solid #d0d0d0;
+}
+
+/* LIÊN HỆ */
+.box-contacts {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  /* text-decoration: none; */
+  /* list-style: 1.6; */
+  justify-content: center;
+  color: grey;
+  gap: 20px;
+}
+
+.box-contacts li {
+  display: flex;
+  align-items: center;
+  /* text-decoration: none; */
+  /* padding-right: 20px; */
+  cursor: pointer;
+}
+.style--contacts {
+  /* padding: 0 20px; */
+  font-size: 30px;
+  color: #00aeff;
+}
+.box-contacts a {
+  text-decoration: none;
+  color: grey;
+}
+#navbar-avatar {
+  display: block;
+  position: relative;
+}
+.navbar-img {
+  width: 100px;
+  height: 100px;
+}
+.navbar-avatar {
+  display: block;
+  position: relative;
+  border: 5px solid #fffefe;
+  border-radius: 50%;
+}
+.navbar-avatar-2 img {
+  border-radius: 50%;
+}
+.rate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 10px 0px;
+  gap: 20px;
+}
+.rate > div.active {
+  width: 5rem;
+  height: 3px;
+  background-color: #2f99f0;
+}
+
+.rate > div.no-active {
+  width: 5rem;
+  height: 3px;
+  background-color: #838587;
+}
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+/* DIGITAL-CV */
+#body-cv {
+  font-size: 16px;
+}
+.cv-box {
+  margin: 20px;
+}
+.container-cv {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1); */
+  gap: 20px;
+  grid-template-columns: 35% 15% 25%;
+  grid-template-areas:
+    "goals goals  team timeline "
+    "goals goals  team timeline "
+    "scopes scopes  primary timeline ";
+  padding: 20px;
+  gap: 10px;
+  background-color: #2196f3;
+  box-shadow: 5px 5px 15px 0px #6d6d6d;
+}
+.container-cv div {
+  background-color: rgb(255 255 255);
+}
+
+.s-container {
+}
+.item-1 {
+  /* background-color: aqua; */
+  grid-area: goals;
+  /* padding: 20px; */
+}
+.item-2 {
+  /* background-color: black; */
+  grid-area: team;
+}
+.item-3 {
+  /* background-color: rgb(36, 78, 57); */
+  grid-area: timeline;
+}
+
+.item-4 {
+  /* background-color: brown; */
+  grid-area: scopes;
+}
+.item-5 {
+  /* background-color: darkcyan; */
+  grid-area: primary;
+}
+.container-cv div.line-cv {
+  height: 0.5px;
+  background-color: rgb(7, 7, 7);
+}
+.container-cv div.line-cv-title {
+  height: 2px;
+  background-color: rgb(31, 29, 29);
+}
+.s-container {
+  padding: 20px;
+}
+.icon-digital {
+  width: 2rem;
+}
+.text-cv {
+  color: #006ea1;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content-cv {
+  width: 65%;
+  line-height: 1.5;
+
+  padding: 20px 0;
+}
+/* TEAM */
+
+/* TIME LINE */
+.line-cv-timeline {
+  border-bottom-style: dotted;
+  padding-top: 0.5rem;
+}
+.content-timeline {
+  padding: 0 10px;
+}
+/* SCOPES */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  line-height: 1.4;
+  padding-top: 20px;
+}
+.grid-scopes p {
+  padding: 20px 0px;
+}
+div.icon-number {
+  background-color: #8d1bf7;
+  font-size: 1rem;
+  color: whitesmoke;
+  width: 40px;
+  height: 40px;
+  /* text-align: center; */
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid black;
+}

@@ -1,0 +1,135 @@
+@media screen and (max-width: 900px) {
+  /* LÀM PHẦN NAVBAR */
+  .navbar-avatar {
+    display: none;
+    /* }
+  .container-navbar {
+    height: 17rem;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .line-navbar {
+    width: 100%;
+    background-color: #0f0f0f;
+    height: 1px; */
+  }
+  /* THÔNG TIN CÁ NHÂN */
+  #about .container {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  section > .container {
+    padding: 0px 3rem;
+  }
+
+  .info {
+    text-align: center;
+  }
+  /* CÔNG VIỆC */
+  .container-job {
+    columns: 2;
+  }
+  .content i {
+    position: relative;
+    padding-top: 15px;
+    padding-left: 15px;
+    left: 28%;
+  }
+  .content {
+    width: 85%;
+  }
+  code {
+    position: relative;
+    left: 25%;
+  }
+  .rate > div.active {
+    width: 75%;
+    height: 3px;
+    background-color: #2f99f0;
+  }
+
+  .rate > div.no-active {
+    width: 75%;
+    height: 3px;
+    background-color: #838587;
+  }
+  /* CHỨNG CHỈ GIẢI THƯỜNG */
+  .container-award {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .verticle-line {
+    /* display: none; */
+  }
+  .non-line {
+    display: none;
+  }
+  .float-img {
+    width: 100%;
+  }
+  .text-award {
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  h5 {
+    padding-top: 55%;
+  }
+  /* DỰ ÁN */
+  .box-project {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+  }
+  /* .timeline {
+    flex-direction: column;
+    align-items: flex-start;
+  } */
+
+  /* LIÊN HỆ */
+  .box-contacts a {
+    display: none;
+  }
+  .box-contacts {
+    padding: 0;
+  }
+
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  /* DIVGITAL-CV */
+  .container-cv {
+    display: block;
+  }
+  .flex {
+    display: flex;
+
+    flex-direction: column;
+    text-align: left;
+  }
+  .icon-digital {
+    padding-top: 5%;
+    width: 3rem;
+  }
+  .p-text-primary {
+    text-align: left;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .timeline-flex {
+    align-items: flex-start;
+    padding-top: 5%;
+  }
+  .content-timeline {
+    padding: 0;
+  }
+  .content-cv {
+    width: 100%;
+    line-height: 1.5;
+    padding: 20px 0;
+  }
+}
