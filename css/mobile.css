@@ -14,12 +14,21 @@
     height: 1px;
   }
   /* THÔNG TIN CÁ NHÂN */
+  #target {
+    text-align: center;
+  }
+  .row {
+    flex-direction: column;
+  }
   #about .container {
     grid-template-columns: 1fr;
     text-align: center;
   }
   section > .container {
     padding: 20px;
+  }
+  #personal-info {
+    text-align: center;
   }
 
   .info {
