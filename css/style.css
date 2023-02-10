@@ -44,7 +44,7 @@ section > .container {
   width: auto;
   height: 68vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(67, 2, 2, 0.201)),
-    url("../images/banner.jpg");
+    url("/images/banner.jpg");
   background-size: cover;
   position: relative;
 }
@@ -76,10 +76,10 @@ section > .container {
 #navbar-avatar {
   flex-basis: 200px;
 }
-.nav {
+.nav-cv {
   font-size: 14px;
   padding-top: 24px;
-  /* font-weight: 600; */
+  font-weight: 600;
   color: #6d6d6d;
 }
 
@@ -89,8 +89,6 @@ section > .container {
   grid-template-columns: repeat(2, 1fr);
 }
 #target {
-  background-color: rgb(240 240 240);
-  /* text-align: center; */
   padding: 43px 10px;
   line-height: 1.6;
 }
@@ -138,7 +136,7 @@ section > .container {
   border-radius: 10px;
 }
 .container-job h1 {
-  padding: 20px;
+  padding: 8px;
 }
 .language li {
   list-style: none;
